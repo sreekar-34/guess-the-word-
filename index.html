@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Guess The Word</title>
+	<title>Guess The Word Game</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -13,21 +12,26 @@
 <script src="game_login.js"></script>
 </head>
 <body>
-<center>
-	<h1>Game</h1>
-	<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
-		<h3>Player 1 Login For The Game</h3>
-		<label>User name :</label>
-		<input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 Name">
+	<center>
+<br>
+<h2>Guess The Word Game</h2>
+<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+<label style="font-size: 25px; color: black;"> Player 1 Login: </label>
+<br>
+<label> User name:</label>
+<input type="text" id="player1_name_input" class="form-control" placeholder="Player 1 name">
+</div>
+<br>
+<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+<label style="font-size: 25px; color: black;"> Player 2 Login: </label>
+<br>
+<label> User name:</label>
+	<input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 name">
 	</div>
 	<br>
-	<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
-		<h3>Player 2 Login For The Game</h3>
-		<label>User name :</label>
-		<input type="text" id="player2_name_input" class="form-control" placeholder="Player 2 Name">
-	</div>
 	<br>
-	<button style="width:30%;" class="btn btn-primary" onclick="addUser()">LOGIN</button>
+	<button class="btn btn-info" onclick="login()" style="width: 20%; height: 40px; border-radius:10px; color: rgb(255, 255, 255); background-image:linear-gradient(to top left, rgb(206, 86, 236),  rgb(255, 129, 213)) ; font-size: 20px;"> Login ➤ </button>
+
 </center>
 </body>
 </html>
